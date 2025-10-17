@@ -5,7 +5,7 @@ export default function TodoInput({ onAddTodo }) {
   const [text, setText] = useState('');
 
   const handleAdd = () => {
-    if (text.trim().length > 0) { // Added a check for empty text
+    if (text.trim().length > 0) { 
       onAddTodo(text);
       setText('');
     }
