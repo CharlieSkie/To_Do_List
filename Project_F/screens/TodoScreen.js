@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
-import TodoInput from '../components/TodoInput'; // Adjusted path
-import TodoItem from '../components/TodoItem'; // Adjusted path
+import TodoInput from '../components/TodoInput'; 
+import TodoItem from '../components/TodoItem'; 
 
-export default function TodoScreen() { // Renamed from TodoList
+export default function TodoScreen() { 
   const [todos, setTodos] = useState([]);
 
   const addTodo = (text) => {

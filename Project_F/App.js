@@ -3,14 +3,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-// Import all screens (using default imports as defined in your files)
 import DashboardScreen from './screens/DashboardScreen';
 import HomeScreen from './screens/HomeScreen';
 import AboutScreen from './screens/AboutScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import NotificationsScreen from './screens/NotificationsScreen';
-import TodoScreen from './screens/TodoScreen'; // This component contains TodoList logic
+import TodoScreen from './screens/TodoScreen'; 
 import ContactScreen from './screens/ContactScreen';
 
 const Tab = createBottomTabNavigator();

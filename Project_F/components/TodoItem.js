@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 4,
-    elevation: 2, // Added for Android shadow
+    elevation: 2,
   },
   text: { fontSize: 16 },
   delete: { fontSize: 18, color: 'red' },
